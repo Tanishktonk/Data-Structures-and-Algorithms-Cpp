@@ -5,9 +5,7 @@ typedef long long ll;
 
 int main() {
     ll n = 3,k = 2;
-	ll seg[n][2] = {{1, 4},
-					{2, 5},
-					{3, 6}};
+	ll seg[n][2] = {{1, 4},{2, 5},{3, 6}};
 	map<ll,ll>start,end;
 	for(int i=0;i<n;i++){
 		ll x = seg[i][0], y = seg[i][1];
