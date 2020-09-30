@@ -30,7 +30,3 @@
 *.exe
 *.out
 *.app
-
-#Files
-LICENSE
-CodeOfConduct.md
